@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Feel Hungry</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+</head>
+
+<body>
+   <header>
+      <a class="logo" href="index.html"><img src="image/1.png" alt="logo"></a>
+      <nav>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reservation.html">Reservations</a></li>
+      </ul>
+      </nav>
+ <a href="contact.html">
+  <p class="menu cta">Contact Us</p>
+</a>
+	
+  </header>
+  
+ <style>
+  .text-box {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .text-box h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+    text-align: flex-start;
+    border-bottom: 2px solid black;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #003A70;
+  }
+
+  input[type="submit"]:focus {
+    outline: none;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #24252a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #0088a9;
+  }
+
+  .btn:active {
+    background-color: #3e8e41;
+  }
+</style>
+  
+<br><br>
+
+    <div class="text-box">
+    <h1>Reservation </h1>
+    </div>
+	 
+<form action="mailto:S181031@stcc.edu.hk.com" method="post" enctype="text/plain">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    
+    <label for="date">Date of Reservation:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    
+    <label for="time">Time of Reservation:</label>
+    <input type="time" id="time" name="time" required><br><br>
+    
+    <label for="guests">Number of Guests:</label>
+    <input type="number" id="guests" name="guests" required><br><br>
+    
+    <label>
+        <input type="checkbox" name="confirmation" checked> Send me a confirmation email<br><br>
+    </label>
+    
+    <label for="communication">Preferred Communication:</label>
+    <input type="radio" id="email" name="communication" value="email" checked> Email
+    <input type="radio" id="phone" name="communication" value="phone"> Phone<br><br>
+    
+    <label for="comments">Special Requests or Comments:</label>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+    
+    <div style="display: flex; justify-content: left;">
+      <a href="reservation.html">
+        <button type="submit" class="btn">Press Here</button>
+      </a>
+    </div>
+</form>
+<br><br>
+
+<div class="container">
+  <table class="center-table1">
+    <tr>
+      <td><strong>Address</strong></td>
+      <td><strong>Opening Hours</strong></td>
+      <td><strong>Contact Us</strong></td>
+      <td><strong>Social Media</strong></td>
+    </tr>
+    <tr>
+      <td>6 Lee On Lane<br>Kwun Tong Kowloon</td>
+      <td>Mon - Sun: <br>11:00 AM - 9:00 PM</td>
+      <td>Feelhungry00@gmail.com<br>2372 0033</td>
+      <td>
+	  
+        <a href="https://www.facebook.com/ecfstcc.page/">
+          <img src="image/5.png" alt="Icon 1" class="social-media-icon">
+        </a>
+		<br>
+        <a href="https://www.youtube.com/channel/UCUZgJGhtaLdItPBub7tU8NA">
+          <img src="image/6.png" alt="Icon 2" class="social-media-icon">
+        </a>
+		<br>
+        <a href="https://www.instagram.com/feel_hungry_/">
+          <img src="image/7.png" alt="Icon 3" class="social-media-icon">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<footer>
+  <div class="footer-left">
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </div>
+ 
+</footer>
+
+</body>
+</html>

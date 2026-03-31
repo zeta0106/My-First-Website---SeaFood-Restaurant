@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", cursive, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+  
+  #parallax1,
+  #parallax1 {
+  height: 600px; /* Adjust the height as needed */
+  background-image: url('image/2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#parallax2 {
+  height: 600px; /* Adjust the height as needed */
+  background-image: url('image/4.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  backdrop-filter: blur(5px); /* Adjust the blur intensity as needed */
+}
+
+.text-box {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  padding: 20px;
+}
+
+.text-box h1 {
+  font-size: 24px;
+}
+
+.text-box p {
+  font-size: 16px;
+}
+
+
+.table1 {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+  }
+
+  .table1 td {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .table1 .left-cell {
+    width: 50%;
+    background-color: #ffffff;
+  }
+
+  .table1 .right-cell {
+    width: 50%;
+    background-color: #ffffff;
+  }
+
+  .table1 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.reservation-container {
+    text-align: center;
+    margin-top: 20vh; /* Adjust the margin-top value to center the container vertically */
+	font-family: "Montserrat", cursive, sans-serif;
+  }
+  
+  .table2 {
+    width: 70%; /* Adjust the width as desired */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+  }
+
+  .table2 th,
+  .table2 td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .table2 label {
+    font-weight: bold;
+  }
+
+  .table2 select,
+  .table2 input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+	font-family: "Montserrat", cursive, sans-serif;
+  }
+
+.container {
+  background-color: #003A70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.center-table1 {
+  width: 70%;
+  border-collapse: collapse;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.center-table1 td {
+  padding: 20px;
+  text-align: center;
+}
+
+.center-table1 td:first-child {
+  padding-right: 10.5%;
+}
+
+.center-table1 td:not(:first-child) {
+  padding-left: 10.5%;
+}
+
+.social-media-icon {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+	{
+		
+
+
+
+

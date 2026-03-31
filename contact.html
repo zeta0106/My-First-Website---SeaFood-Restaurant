@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Feel Hungry</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  </head>
+  <body>
+  
+  <header>
+    <a class="logo" href="index.html"><img src="image/1.png" alt="logo"></a>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reservation.html">Reservations</a></li>
+      </ul>
+    </nav>
+  <a href="contact.html">
+   <p class="menu cta">Contact Us</p>
+  </a>
+	
+  </header>
+  <style>
+  .parallax {
+  position: relative;
+  height: 100vh;
+}
+
+.parallax::before {
+  content: "";
+  background-image: url("image/17.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(8px); /* Adjust the blur intensity as needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: black; /* Add black overlay */
+  opacity: 0.6; /* Adjust the opacity as needed */
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black; /* Adjust text color as needed */
+  padding: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Contact Information */
+p {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff; /* Adjust link color as needed */
+  text-decoration: none;
+}
+
+/* Contact Form */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 600px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust button color as needed */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Social Media Links */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Business Hours */
+p:last-child {
+  margin-bottom: 0;
+}
+.btn {
+  display: inline-block;
+  background-color: #24252a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0088a9;
+}
+
+.btn:active {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<div class="parallax">
+  <div class="center-container">
+    <h1>Contact Us</h1>
+  
+    <h2>Contact Information</h2>
+    <p>Phone: <a href="tel:23720033">23720033</a></p>
+    <p>Email: <a href="mailto:Feelhungry00@gmail.com">Feelhungry00@gmail.com</a></p>
+    <p>Address: 6 Lee On Lane Kwun Tong Kowloon</p>
+
+    <form action="mailto:S181031@stcc.edu.hk.com" method="post" enctype="text/plain">
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="8" required></textarea>
+      </div>
+      
+    <button type="submit" class="btn">Send</button>
+    </form>
+
+
+  
+</div>
+</div><br><br>
+
+
+<div style="text-align: center;">
+  <h1><font color="black">Come Visit Us</font></h1>
+  <p><font color="black">Indulge in a seafood lover's paradise at our restaurant. <br>
+  Immerse yourself in a delectable array of fresh and flavorful seafood dishes that will transport you to the coast with every bite. <br>
+  From succulent lobster and perfectly grilled fish to mouthwatering shrimp creations, <br>
+  our menu is a true celebration of oceanic delights. With a charming ambiance and attentive service, <br>
+  we invite you to join us and embark on a culinary journey that will leave you craving more. <br>
+  Come and experience the ultimate seafood experience at our restaurant, <br>
+  where every dish is a taste of oceanic perfection.</font></p>
+</div>
+
+<div class="center-container">
+<h2 class="map-heading">Our Location on Google Maps</h2>
+<div style="text-align: center;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d775.8544400555106!2d114.22325053676224!3d22.330717715109394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406b11bd9350b%3A0x27e51a5e613aff24!2z5Z-6552j5pWZ5Lit5ZyL5L2I6YGT5pyD6IGW6YGT6L-m5Y2X5pu46Zmi!5e0!3m2!1szh-TW!2shk!4v1690735554630!5m2!1szh-TW!2shk" 
+    width="1400" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div><br><br>
+
+  <div class="container">
+  <table class="center-table1">
+    <tr>
+      <td><strong>Address</strong></td>
+      <td><strong>Opening Hours</strong></td>
+      <td><strong>Contact Us</strong></td>
+      <td><strong>Social Media</strong></td>
+    </tr>
+    <tr>
+      <td>6 Lee On Lane<br>Kwun Tong Kowloon</td>
+      <td>Mon - Sun: <br>11:00 AM - 9:00 PM</td>
+      <td>Feelhungry00@gmail.com<br>2372 0033</td>
+      <td>
+	  
+        <a href="https://www.facebook.com/ecfstcc.page/">
+          <img src="image/5.png" alt="Icon 1" class="social-media-icon">
+        </a>
+		<br>
+        <a href="https://www.youtube.com/channel/UCUZgJGhtaLdItPBub7tU8NA">
+          <img src="image/6.png" alt="Icon 2" class="social-media-icon">
+        </a>
+		<br>
+        <a href="https://www.instagram.com/feel_hungry_/">
+          <img src="image/7.png" alt="Icon 3" class="social-media-icon">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  <div class="footer-left">
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </div>
+ 
+</footer>
+  
+</body>
+</html>
